@@ -1,5 +1,5 @@
 # Question 11:- Finding the Percentage
-
+# Question name is find the percentage but we have to find the average.
 # This is how i actually debug and try to solve line by line.
 
 # stud = {
@@ -45,3 +45,4 @@ for i in student_marks[query_name]:
 
 avg = round(sum/len(student_marks[query_name]), 2)
 print(f"Average of {avg:.2f}")
+
