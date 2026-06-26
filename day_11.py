@@ -11,3 +11,14 @@ line = "Hello Everyone, Here I am showing you all how I approach questions and f
 # print(textwrap.fill(line, 5))
 # print(textwrap.fill(line, 8))
 print(textwrap.fill(line, 12))
+
+# Solution 
+import textwrap
+
+def wrap(string, max_width):
+    return textwrap.fill(string, max_width)
+
+if __name__ == '__main__':
+    string, max_width = input(), int(input())
+    result = wrap(string, max_width)
+    print(result)
