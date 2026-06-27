@@ -40,3 +40,20 @@ a = ".|."
     # print((a*5).center(21, "-"))
 
 
+# Solution 
+
+# Printing lines before the Welcome line
+for i in range(n):
+    if i % 2 != 0:
+        print((a*i).center(m, "-"))
+
+# printing the welcome line
+print("WELCOME".center(m, "-"))
+
+#printing the lines after welcome line
+# for i in range(7, 0, -1):  # error comes as it is hard coded
+# for i in range(n, 0, -1): # error - printing an xtra line 
+for i in range((n-1), 0, -1):
+    if i % 2 != 0:
+        print((a*i).center(m, "-"))
+
