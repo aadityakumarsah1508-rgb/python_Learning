@@ -1,4 +1,4 @@
-# String > Designer door mat
+# Question 23:- String > Designer door mat
 
 # Approaching the question
 n = 11
@@ -57,3 +57,10 @@ for i in range((n-1), 0, -1):
     if i % 2 != 0:
         print((a*i).center(m, "-"))
 
+
+# ==============================================================================================
+
+# Question 24:- String > String Formating 
+
+number = 17
+print(number + oct(number) + "\t" + hex(number) + "\t" + bin(number) + "\t") 
