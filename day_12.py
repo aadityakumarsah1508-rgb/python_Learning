@@ -8,3 +8,35 @@ z = 27//2
 # print(z)
 a = ".|."
 
+# Applying ideas
+# print(a.center(21,"-"))
+# print(a.center(24,"-"))
+
+# Idea - Using nested loop to print 
+# for i in range(n):
+#     print("welcome".center(21, "-"))
+#     for j in range(m):
+#         print("H", end="")
+#         a.center(21, "-")
+#         print("-" * z + a + "-"*z)
+#     print()
+
+# Idea - print using odd numbers
+# for i in range(7):
+    # printing things before 
+# for j in range(7):
+#         if j%2!=0:
+#             print((a*j).center(21, "-"))
+# print("WELCOME")
+
+# Trying to back loop
+# for j in range(7,-1):
+#         if j%2!=0:
+#             print((a*j).center(21, "-"))
+
+# for i in range(6, 0, -2):
+#       print((a*i).center(21, "-"))
+
+    # print((a*5).center(21, "-"))
+
+
