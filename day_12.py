@@ -71,5 +71,9 @@ for i in range(number):
     # result is different required output is different 
     print(str(i) + " " + oct(i)[2:] + " " + hex(i)[2:] + " " + bin(i)[2:]) # it also produces error as space not matched
 
+# After taking help of AI
 
-
+# Solution goes here
+width = len(bin(number)-2)
+for i in range(1, number+1):
+        print(str(i).rjust(width) + oct(i)[2:].rjust(width) + hex(i)[2:].rjust(width) + bin(i)[2:].rjust(width))
