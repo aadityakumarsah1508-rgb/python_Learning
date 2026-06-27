@@ -64,3 +64,12 @@ for i in range((n-1), 0, -1):
 
 number = 17
 print(number + oct(number) + "\t" + hex(number) + "\t" + bin(number) + "\t") 
+# Upper line gives error as it number is int type while the rest is of string type.
+
+for i in range(number):
+    print( str(i) + "\t" + oct(i) +  "\t" + hex(i) + "\t" + bin(i)) # it doesn't work as space is too much 
+    # result is different required output is different 
+    print(str(i) + " " + oct(i)[2:] + " " + hex(i)[2:] + " " + bin(i)[2:]) # it also produces error as space not matched
+
+
+
