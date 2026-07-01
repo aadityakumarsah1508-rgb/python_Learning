@@ -24,3 +24,12 @@ B = list(map(int, input().split()))
 
 result = product(A, B)
 print(*result)
+
+# ================================================================================================
+# Question 29:- 
+from itertools import permutations 
+a = list(input().split())
+print(a)
+
+# print(list(permutations([1,2,3], 2)))
+print(list(permutations(a, 2)))
