@@ -26,13 +26,28 @@ result = product(A, B)
 print(*result)
 
 # ================================================================================================
-# Question 29:- 
+# Question 29:- itertools >itertools.permutation() 
+
 from itertools import permutations 
 a = list(input().split())
 print(a)
 k = a[0]
 # print(list(permutations([1,2,3], 2)))
 RESULT = list(permutations(k, 2))
-# print(*RESULT)
-for i in RESULT:
+print(*RESULT)
+# for i in RESULT:
+#     print(*i, sep="")
+
+# sorting
+
+# Solution:- 
+
+S, k = input().split()
+# print(S)
+# print(k)
+
+res = sorted(permutations(S, 2))
+# print(*res, sep="")
+ 
+for i in res:
     print(*i, sep="")
