@@ -30,6 +30,9 @@ print(*result)
 from itertools import permutations 
 a = list(input().split())
 print(a)
-
+k = a[0]
 # print(list(permutations([1,2,3], 2)))
-print(list(permutations(a, 2)))
+RESULT = list(permutations(k, 2))
+# print(*RESULT)
+for i in RESULT:
+    print(*i, sep="")
