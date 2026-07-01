@@ -17,3 +17,10 @@ print(b)
 pro = list(product(a,b))
 print(pro)
 
+# Solution 
+
+A = list(map(int, input().split()))
+B = list(map(int, input().split()))
+
+result = product(A, B)
+print(*result)
