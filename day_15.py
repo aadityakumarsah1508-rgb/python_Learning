@@ -30,6 +30,7 @@ sample_input = [6, 55] # where 6 is size of shoe and 55 is price
 # Output will be the total money
 # Approaching the question
 
+final_price = 0
 # Taking input from user
 for i in range(n):
     customer_demand = input().split()

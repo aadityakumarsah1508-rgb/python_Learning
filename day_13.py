@@ -16,8 +16,10 @@ start = 97
 end = 96 + 3
 direction = -1
 # print(end)
-while end != 96:
-    print(end)
-    end -= direction
-    if end == 97:
-        end += end
+# while end != 96: -- don't run its infinite loop 
+#     print(end)
+#     end -= direction
+#     if end == 97:
+#         end += end
+
+# not solved going to try again after some day
