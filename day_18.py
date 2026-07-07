@@ -22,3 +22,21 @@ vowelS = set("AEIOU")
 # 🤯🤯🤯😤😤😤😤
 
 
+for i in range(len(s)):
+    # print(s[i])
+    if s[i] in vowelS:
+        kevin_score += (len(s) - i)
+        # print("ues")
+    elif s[i] not in vowelS:
+        # print("not")
+        sturt_score += len(s)-i
+
+print("kwcin = ", kevin_score)
+print("sturt = ", sturt_score)
+
+if kevin_score > sturt_score:
+    print("Kevin", kevin_score)
+elif kevin_score < sturt_score:
+    print("Stuat ", sturt_score)
+else:
+    print("Draw")
