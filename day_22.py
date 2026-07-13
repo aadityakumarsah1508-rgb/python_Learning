@@ -31,3 +31,6 @@ elif day == 5:
     print("SATURDAY")
 elif day == 6:
     print("SUNDAY")
+
+# There is a alread a method for printing the days
+print(calendar.day_name[day])
